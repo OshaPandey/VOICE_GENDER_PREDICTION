@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-=p#!g#+js%*%k8wtp#&pi=quy$+k-akbv$vzy-&172lq1om6u6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['voice-gender-prediction-cmwh.onrender.com', 'https://voice-gender-prediction-cmwh.onrender.com']
+ALLOWED_HOSTS = ['voice-gender-prediction-cmwh.onrender.com', 'voice-gender-prediction-cmwh.onrender.com']
 
 
 # Application definition

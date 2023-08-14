@@ -52,7 +52,7 @@ def Finder(name, sd, median, Q25, Q75, IQR, Skew, spent, Mode, Centroid, meanfun
         df = df.append(df2, ignore_index=True)
 
         # load the model from disk
-        filename = os.path.join(os.path.dirname(os.path.dirname(__file__)), r'polls\voice_model.pickle')
+        filename = r'polls/voice_model.pickle'
         loaded_model = pickle.load(open(filename, 'rb'))
         res = loaded_model.predict(df)
 

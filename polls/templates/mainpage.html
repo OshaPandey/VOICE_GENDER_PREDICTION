@@ -1,11 +1,12 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Voice Reveal</title>
 </head>
 <body>
-<form method="post" action="" enctype="multipart/form-data">
+<form method="post" action="{% url 'voice_reveal' %}" enctype="multipart/form-data">
     {% csrf_token %}
     <div class="input-group mb-3">
         <span class="input-group-text" id="inputGroup-sizing-default"><h2>Name</h2></span><br>

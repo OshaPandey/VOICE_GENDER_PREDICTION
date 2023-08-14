@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-=p#!g#+js%*%k8wtp#&pi=quy$+k-akbv$vzy-&172lq1om6u6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['voice-prediction.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
